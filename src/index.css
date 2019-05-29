@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Italic", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #43425d;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.image-style {
+  width: 100%;
+  height: 677px;
+  max-height: 100%;
+}
+.logo {
+  margin-left: 60%;
+  margin-top: 40%;
+  width: 25%;
+}
+.logo-svg {
+  margin-top: 2%;
+  color: white;
+  margin-left: 66%;
+  font-size: 25px;
+}
+.user-img {
+  width: 24px;
+  height: 24px;
+}
+.password-img {
+  margin-top: -5px;
+  width: 20px;
+  height: 20px;
+}
+.submit {
+  margin-left: 25%;
+  margin-top: 10%;
+  width: 27%;
+}
+
+/* thead tr th {
+  display: none;
+}
+
+thead tr th i {
+  display: none;
+} */
+
+tbody + thead {
+  display: none;
+}
+
+td {
+  font-size: 12px !important;
+}
+
+div.MuiButtonBase-root-57
+  + div.MuiButtonBase-root-57
+  + div.MuiButtonBase-root-57
+  + div.MuiButtonBase-root-57
+  + div.MuiButtonBase-root-57
+  + div.MuiButtonBase-root-57 {
+  display: none;
+}
+
+.bs-select {
+  display: none;
+}
+
+th {
+  font-size: 14px !important;
+  font-weight: bold;
+}
+.error  {
+  color: red;
+  font-family: Arial;
+  font-size: 20px;
+  margin-left: 50%;
+  margin-top: 6%;
+}
+.forgotPassError  {
+  color: red;
+  font-family: Arial;
+  font-size: 20px;
+  margin-left: 43%;
+  margin-top: 6%;
+}
+.bckgImage {
+  background-image: url("../src/assets/login.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 40%;
+  margin-left: -30px;
+  background-size: 100% 100%;
+  background-position: center;
+
+  float: left;
+}
+.merchantActivation {
+  width: 85%;
+  height: 179px;
+  border: #43425d;
+  background-color: white !important;
+  margin-top: 10% !important;
+  margin-left: 24% !important;
+  font-size: 15px !important;
+  color: #43425d !important;
+}
+.merchantActLine {
+  height: 5px;
+  width: 60%;
+  background-color: #54a4f3;
+  margin-left: 20%;
+  margin-top: 12px;
+}
+.stateSettle {
+  width: 85%;
+  height: 179px;
+  border: aliceblue;
+  background-color: white !important;
+  margin-top: 10% !important;
+  margin-left: 18% !important;
+  color: #43425d !important;
+  font-size: 15px !important;
+}
+.stateSettleLine {
+  height: 5px;
+  width: 74%;
+  background-color: #54f3ae;
+  margin-left: 13%;
+  margin-top: 12px;
+}
+.systemLog {
+  width: 85%;
+  height: 179px;
+  border: aliceblue;
+  background-color: white !important;
+  margin-top: 10% !important;
+  margin-left: 11% !important;
+  color: #43425d !important;
+  font-size: 15px !important;
+}
+
+.systemLogLine {
+  height: 5px;
+  width: 34%;
+  background-color: #ff533d;
+  margin-left: 33%;
+  margin-top: 12px;
+}
+.payerAccountEnquiry {
+  width: 85%;
+  height: 179px;
+  border: aliceblue;
+  background-color: white !important;
+  margin-top: 10% !important  ;
+  margin-left: 24% !important;
+  color: #43425d !important;
+  font-size: 15px !important;
+}
+.payerAccountEnquiryLine {
+  height: 5px;
+  width: 48%;
+  background-color: #a239ca;
+  margin-left: 26%;
+  margin-top: 12px;
+}
+.payerLoadFunds {
+  width: 85%;
+  height: 179px;
+  border: aliceblue;
+  background-color: white !important;
+  margin-top: 10% !important;
+  margin-left: 18% !important;
+  color: #43425d !important;
+  font-size: 15px !important;
+}
+
+.payerLoadFundsLine {
+  height: 5px;
+  width: 50%;
+  background-color: #a239ca;
+  margin-left: 25%;
+  margin-top: 12px;
+}
