@@ -39,7 +39,7 @@
     "reactjs-popup": "^1.3.2",
     "reactstrap": "^7.1.0",
     "redux-form": "^8.1.0",
-    "terser": "^3.14.1"
+    "terser": "^4.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
